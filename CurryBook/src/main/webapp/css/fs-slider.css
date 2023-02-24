@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+.flexslider {overflow:hidden;} /*슬라이더로 인해 생기는 아랫줄 스크롤바를 overflow:hidden; 값으로 없애준다.*/
+.fs-slide {position:relative; overflow:hidden;} 
+.flex-prev .bi, .flex-next .bi {color:#F4F4F4;}
+.fs-item-bg {width:100%;}
+.fs-slideContents {position:absolute;}
+.fs-slideContents h2, .fs-slideContents p {
+    font-family: 'HallymGothic-Regular'; color:#F4F4F4;
+}
+
+@media screen and (min-width:1350px) {
+  .flex-prev .bi, .flex-next .bi {font-size:42px;} /*예시) jquery.flexslider.js 에서 부트스트랩검색 -> namespace(해당이름) 검색-> flex- 인것 확인 -> 부모요소 지정 : .flex-prev*/
+
+  .fs-item-bg {height:500px; }
+  .fs-bg-1 { /*background-size:cover; 는 개별 스타일시트로 지정한다.*/
+    background:url(../imgs/dt-slide1.jpg) no-repeat center center;
+    background-size:cover;
+  }
+  .fs-bg-2 {
+    background:url(../imgs/dt-slide2.jpg) no-repeat center center;
+    background-size:cover;
+  }
+
+  .fs-slideContents {
+    left:50%; top:250px; 
+    width:1300px; margin-left:-650px; padding-left:30px;
+  }
+  .fs-slideContents h2 {
+    font-size:52px; font-weight:bold; 
+    text-shadow:2px 2px 2px #000;
+  }
+  .fs-slideContents p {padding-top:30px; font-size:18px;}
+}
+
+
+@media screen and (min-width:1050px) and (max-width:1349px) {
+  .flex-prev .bi, .flex-next .bi {font-size:38px;} /*예시) jquery.flexslider.js 에서 부트스트랩검색 -> namespace(해당이름) 검색-> flex- 인것 확인 -> 부모요소 지정 : .flex-prev*/
+
+  .fs-item-bg {height:450px; }
+  .fs-bg-1 { /*background-size:cover; 는 개별 스타일시트로 지정한다.*/
+    background:url(../imgs/dt-slide1.jpg) no-repeat center center;
+    background-size:cover;
+  }
+  .fs-bg-2 {
+    background:url(../imgs/dt-slide2.jpg) no-repeat center center;
+    background-size:cover;
+  }
+
+  .fs-slideContents {
+    left:50%; top:225px; 
+    width:1000px; margin-left:-500px; padding-left:30px;
+  }
+  .fs-slideContents h2 {
+    font-size:42px; font-weight:bold; 
+    text-shadow:1px 1px 1px #000;
+  }
+  .fs-slideContents p {padding-top:20px;}
+  .flex-control-nav  {bottom:20px;}
+}
+
+@media screen and (min-width:600px) and (max-width:1049px) {
+  .flex-direction-nav a {margin-top:10px;}
+  .flex-prev .bi, .flex-next .bi {font-size:32px;} /*예시) jquery.flexslider.js 에서 부트스트랩검색 -> namespace(해당이름) 검색-> flex- 인것 확인 -> 부모요소 지정 : .flex-prev*/
+
+  .fs-item-bg {height:450px;}
+  .fs-bg-1 { /*background-size:cover; 는 개별 스타일시트로 지정한다.*/
+    background:url(../imgs/tb-slide1.jpg) no-repeat center center;
+    background-size:cover;
+  }
+  .fs-bg-2 {
+    background:url(../imgs/tb-slide2.jpg) no-repeat center center;
+    background-size:cover;
+  }
+
+  .fs-slideContents {top:180px; width:100%; padding-left:60px;}
+  .fs-slideContents h2 {
+    font-size:38px; font-weight:bold; 
+    text-shadow:1px 1px 1px #000;
+  }
+  .fs-slideContents p {padding-top:20px;}
+  .flex-control-nav  {bottom:15px;}
+}
+
+@media screen and (max-width:599px) {
+  .flex-direction-nav a {margin-top:5px;}
+  .flex-prev .bi, .flex-next .bi {font-size:32px;} /*예시) jquery.flexslider.js 에서 부트스트랩검색 -> namespace(해당이름) 검색-> flex- 인것 확인 -> 부모요소 지정 : .flex-prev*/
+
+  .fs-item-bg {height:350px;}
+  .fs-bg-1 { /*background-size:cover; 는 개별 스타일시트로 지정한다.*/
+    background:url(../imgs/sm-slide1.jpg) no-repeat center center;
+    background-size:cover;
+  }
+  .fs-bg-2 {
+    background:url(../imgs/sm-slide2.jpg) no-repeat center center;
+    background-size:cover;
+  }
+
+  .fs-slideContents {left:50%; top:160px; width:330px; margin-left:-165px;}
+  .fs-slideContents h2 { /*line-height를 폰트사이즈보다 줄이면 행간이 줄어든다.*/
+    width:100%;
+    font-size:38px; font-weight:bold; text-align:center; line-height:35px; 
+    text-shadow:1 1 1px #000;
+  }
+  .fs-slideContents p {padding-top:10px; font-size:13px; text-align:center;}
+  .flex-control-nav  {bottom:5px;}
+
+}

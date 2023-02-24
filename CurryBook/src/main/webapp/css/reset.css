@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+
+
+@font-face {
+    font-family: 'HallymGothic-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2204@1.0/HallymGothic-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+/*
+font-family: 'NanumSquareNeoLight';
+font-family: 'NanumSquareNeo';
+font-family: 'NanumSquareNeoBold';
+font-family: 'NanumSquareNeoExtraBold';
+font-family: 'NanumSquareNeoHeavy';
+
+*/
+
+@font-face {
+    font-family: '양진체';
+    src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {margin:0; padding:0; box-sizing:border-box;}
+body {
+    font-family: 'HallymGothic-Regular'; font-size:15px; color:#333;
+    background:#FFF;
+}
+h2 {font-family: 'NanumSquareNeoExtraBold';}
+h3 {font-family: '양진체';}
+ul li {float:left; list-style:none;}
+a {display:block; color:#333; text-decoration:none; border:0; outline:0;}
+article {transition:all 0.4s ease;}
+.clear {clear:both;}

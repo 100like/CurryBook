@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+/*===== Reset =====*/
+.sub-bn {height:500px;}
+h4 {
+	font-family: 'NanumSquareNeoExtraBold';
+	font-size:52px; font-weight:bold;  color:#F2F2F2;
+    text-shadow:2px 2px 2px #000;
+	padding:250px 0 30px; text-align:center;}
+.mb-container, .poll-container {padding:50px 0;}
+.mb-container li {float:none; padding:5px 0;}
+.flex {display:flex; justify-content:center; padding-top:30px;}
+.btn {margin:0 5px;}
+
+/*===== Member Join =====*/
+.sub-bn-bg-2 { 
+	background:url(../imgs/sub-bn-bg-4.jpg) no-repeat center center;
+    background-size:cover;
+}
+.join-container {width:450px; margin:0 auto;}
+.input-id, .input-zipcode {float:left; width:230px; margin-right:10px;}
+.input-birth {float:right; width:340px;}
+.join-container li:nth-child(5), .join-container li:nth-child(6), .join-container li:nth-child(10), .join-container .btn-login {line-height:40px;}
+.frm-btn {margin-top:30px;}
+
+/*===== Member idCheck =====*/
+.idcheck-container{ 
+	width: 100%; height:100%; margin:0 auto; text-align:center;}
+.idcheck-container  h2 { 
+	margin-bottom:0; padding:15px 0; background:#216c34;  
+	font-family: '양진체'; color:#F4F4F4; line-height:24px;}
+.close-btn {margin:10px 5px;}
+.idcheck-container p {margin-top:20px; margin-bottom:0;}
+/*===== Member Login =====*/
+.sub-bn-bg-1 {
+		background:url(../imgs/sub-bn-bg-4.jpg) no-repeat center center;
+    	background-size:cover;
+}
+.login-container {width:350px; margin:0 auto;}
+.login-container .input-box {width:285px;}
+
+
+/*===== Member Login Success =====*/
+.welcome strong {color:#216c34; }
+
+
+/*===== Member MyPage =====*/
+.table-mypage {width:500px; margin:0 auto;}
+.table-mypage td:nth-child(1) {width:120px;}
+
+
+/*===== Member Admin =====*/
+.sub-bn-bg-3 {
+		background:url(../imgs/sub-bn-bg-4.jpg) no-repeat center center;
+    	background-size:cover;
+    	
+}
+.list-container{width:1000px; margin:0 auto;}
+.search-box {width:250px; margin:30px auto;}
+.memberlist > th {text-align:center;}
+
+/*===== Poll List =====*/
+.sub-bn-bg-4 {
+			background:url(../imgs/sub-bn-bg-1.jpg) no-repeat center center;
+    		background-size:cover;
+}
+.pl-container {width:600px; margin:0 auto;}
+.pl-sm-container {width:350px; margin:0 auto;}
+h5 {color: #216c34; font-weight:bold; }
+h5.pl-list {margin-top:50px;}
+
+
+
+/*===== Poll Form =====*/
+.pf-insert {width:100%;}
+.pf-insert td {height:40px; text-align:left;}
+.pf-insert .pf-item {text-align:center;}
+
+
+
+/*===== Poll View =====*/
+.pollviewcontainer{width: 100%; text-align:center;}
+.pollviewcontainer h2 {padding:10px 0; background:#864000;;  
+	font-family: '양진체'; color:#F4F4F4; line-height:24px;}
+.ratio {color:#FFF; background: #864000; border-radius:5px; }
+td {height:30px; text-align:center; border-bottom:1px solid #D8D8D8;}
+.pv-question, .pv-item {width:420px; margin:20px auto;}
+.pv-question td:nth-child(1) {width:70px;}
+.pv-question td:nth-child(2) {text-align:left;}
+.pv-item > td:nth-child(1) {width:35px;}
+.pv-item td:nth-child(2) {width:80px;}
+.pv-item td:nth-child(3) {width:250px;}
+.pv-item td:nth-child(4) {width:55px;}
+
+
+
+/*===== Zipcheck =====*/
+.zipcheck-container { 
+	width: 100%; height:100%; margin:0 auto; 
+	padding:0;
+}
+.zipcheck-container h2 {
+	padding:10px 0; background:#216c34;  
+	font-family: '양진체'; color:#F4F4F4; line-height:24px; text-align:center;
+	}
+ 
+
+
+
+
+
+
+
+
+
