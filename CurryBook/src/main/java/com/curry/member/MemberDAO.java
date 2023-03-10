@@ -171,7 +171,7 @@ public class MemberDAO {
 				vo.setEmail(rs.getString("email"));
 				vo.setZipcode(rs.getString("zipcode"));
 				vo.setAddr(rs.getString("addr"));
-				//취미 컬럼은 '10100' 값으로 저장되어있다. 체크한 취미는 '1', 체크 안한 취미는 '0'으로 저장했다.
+				//마케팅 컬럼은 '10100' 값으로 저장되어있다. 체크한 마케팅은 '1', 체크 안한 마케팅은 '0'으로 저장했다.
 				String[] marketings = new String[5];
 				String marketing = rs.getString("marketing"); //'10100'
 				
